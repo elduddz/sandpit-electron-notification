@@ -1,6 +1,6 @@
 function loadInfo() {
     var xhttp = new XMLHttpRequest();
-    xhttp.open("GET", "http://localhost:8888/ajax_info.json", true);
+    xhttp.open("GET", "ajax_info.json", true);
     xhttp.send();
 
     xhttp.onreadystatechange = function () {
